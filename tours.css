@@ -1,0 +1,33 @@
+.tours-main {
+	padding: 50px 20px;
+}
+
+.tours-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.tours-section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.tour-content-main {
+	padding-top: 50px;
+}
+
+.tour-content-main p {
+	padding-top: 50px;
+}
+
+.tour-content-main button {
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+
+.tour-content-main hr {
+	width: 30px;
+	border-bottom: 1px solid grey;
+	float: left;
+}

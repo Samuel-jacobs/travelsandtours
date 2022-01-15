@@ -1,0 +1,51 @@
+.contact {
+	padding: 50px 30px;
+}
+
+.contact-intro {
+	padding-top: 50px;
+}
+
+.contact-main {
+	padding-top: 50px;
+}
+.contact-icon {
+	padding: 10px;
+}
+.mail {
+	padding: 0 10px;
+}
+.contact-icon .fas {
+	color: #48a9a6;
+	font-weight: 900;
+}
+
+.contact-form {
+	padding-top: 50px;
+}
+
+.contact-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.socials {
+	padding: 50px 0 70px 0;
+}
+.socials a {
+	color: black;
+	background-color: #d3d3d3;
+	border-radius: 50%;
+	padding: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.socials a:hover {
+	background-color: #48a9a6;
+	opacity: 0.3;
+}
+
+.socials .fab {
+	font-size: 20px;
+}

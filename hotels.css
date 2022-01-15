@@ -1,0 +1,25 @@
+.hotel-main {
+	padding-top: 100px;
+}
+.hotel-section {
+	padding: 50px 20px;
+}
+.hotel-section img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.hotel-content {
+	padding-top: 50px;
+}
+
+.hotel-content hr {
+	border-bottom: 3px solid black;
+}
+
+.pagination {
+	position: relative;
+	left: 50%;
+}
