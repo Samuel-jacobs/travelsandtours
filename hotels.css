@@ -1,5 +1,5 @@
 .hotel-main {
-	padding-top: 100px;
+	padding: 100px 15px 0px 15px;
 }
 .hotel-section {
 	padding: 50px 20px;
@@ -21,7 +21,7 @@
 
 .pagination {
 	position: relative;
-	left: 50%;
+	left: 10%;
 }
 
 @media screen and (min-width: 768px) {

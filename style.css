@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header .carousel-home img {
 	width: 100%;
-	height: 400px;
+	height: 80vh;
 }
 .nav-item {
 	border-bottom: 1px solid white;
@@ -333,7 +333,9 @@ header .carousel-home img {
 	.tours-intro h1 {
 		font-size: 5.5rem;
 	}
-
+	.tour-content .italy {
+		margin-top: 30px;
+	}
 	.partners-intro {
 		text-align: center;
 
