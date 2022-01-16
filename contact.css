@@ -1,5 +1,6 @@
 .contact {
 	padding: 50px 30px;
+	line-height: 1.8;
 }
 
 .contact-intro {
@@ -48,4 +49,35 @@
 
 .socials .fab {
 	font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.nav-item a{
+		color: grey;
+	}
+	.nav-item a:hover {
+		color: teal;
+	}
+	header .carousel h1 {
+		font-size: 5.5rem;
+	}
+	header .carousel img {
+		height: 60vh;
+		width: 100%;
+	}
+
+	.contact h1 {
+		font-size: 5.5rem;
+	}
+
+	.contact-main {
+		padding: 30px;
+	}
+
+	.contact-wrapper {
+		padding-right: 50px;
+	}
+	.contact-wrapper p {
+		font-size: 1.2rem;
+	}
 }

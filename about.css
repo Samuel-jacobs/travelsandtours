@@ -43,3 +43,69 @@
 	padding: 15px 20px;
 	border-radius: 5px;
 }
+
+@media screen and (min-width: 768px) {
+	.nav-item a{
+		color: grey;
+	}
+	.nav-item a:hover {
+		color: teal;
+	}
+	header .carousel h1 {
+		font-size: 5.5rem;
+	}
+	header .carousel img {
+		height: 60vh;
+		width: 100%;
+	}
+	.about-intro h1 {
+		font-size: 5.5rem;
+	}
+	.about-intro p {
+		font-size: 1.3rem;
+	}
+	.about-bio {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.about-bio-text {
+		padding-left: 50px;
+		padding-right: 50px;
+		line-height: 2;
+		font-size: 1.2rem;
+	}
+	.about-mission-content {
+		padding: 50px;
+	}
+	.about-mission-content h1{
+		font-size: 5.5rem;
+	}
+	.about-mission-content p {
+		line-height: 1.8;
+		font-size: 1.3rem;
+	}
+
+	.about-services {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.about-service-content h6 {
+		font-size: 1.5rem;
+		padding-top: 20px;
+	}
+
+	.about-service-content p {
+		padding: 0 30px;
+	}
+
+	.get-in-touch {
+		width: 500px;
+		margin: 0 auto;
+		padding-bottom: 5px;;
+	}
+
+	footer {
+		margin-top: 30px;
+	}
+}

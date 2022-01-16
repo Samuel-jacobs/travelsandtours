@@ -68,6 +68,7 @@ header .carousel-home img {
 	color: white;
 }
 
+
 .home-services .service-card1 .image {
 	height: 300px;
   background-color: red;
@@ -112,7 +113,10 @@ header .carousel-home img {
   z-index: 1;
   
 }
-
+.service-wrapper {
+	margin-top: 50px;
+	padding: 0 20px;
+}
 .service-content {
 	position: relative;
 	background-color: #f4f4f4;
@@ -178,13 +182,14 @@ header .carousel-home img {
 	background-color: grey;
 	opacity: 0.9;
 	padding: 50px 20px;
-	
+	line-height: 2;
 }
 .review-content2 {
 	background-color: white;
 	opacity: 0.9;
 	padding: 50px 20px;
 	color: black;
+	line-height: 2;
 }
 .checked {
   color: orange;
@@ -235,8 +240,10 @@ header .carousel-home img {
 	padding: 0 20px;
 }
 
-.traveling-partners .card {
-	background-color: lightgray;
+.partners-text {
+	background-color: #f4f4f4;
+	text-align: center;
+	padding: 30px 30px;
 }
 
 .footer {
@@ -251,4 +258,111 @@ header .carousel-home img {
 .footer a {
 	color: white;
 	padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-main {
+		background-color: transparent;
+	}
+	.navbar-nav {
+		margin-left: auto;
+	}
+	.nav-item {
+		border: none;
+	}
+	 .carousel-home img {
+		height: 100vh;
+	}
+	.banner-caption-home {
+		left: 50px;
+	}
+	.banner-caption-home h1{
+		font-size: 6.5rem;
+		max-width: 70%;
+	}
+	.banner-caption-home p {
+		max-width: 50%;
+		font-size: 1.3rem;
+		line-height: 1.8;
+	}
+
+	.home-services h1 {
+		font-size: 4.5rem;
+	}
+	.home-services h5 {
+		font-size: 2rem;;
+	}
+
+	.service-wrapper {
+		padding-left: 50px;
+		padding-right: 50px;
+		
+	}
+	.hotels {
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+
+	.reviews {
+		height: 120vh;
+		padding: 50px;
+	}
+
+	.review-intro h1{
+		font-size: 5.5rem;
+	}
+
+	.review-content1, .review-content1 {
+		height: 400px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.tour-content .tour-content-img {
+		height: 500px;
+	}
+
+	.tour-content-text {
+		top: 30%;
+	}
+
+	.tours-intro {
+		padding: 100px;
+	}
+
+	.tours-intro h1 {
+		font-size: 5.5rem;
+	}
+
+	.partners-intro {
+		text-align: center;
+
+	}
+	.partners-intro h1 {
+		font-size: 5.5rem;
+	}
+
+	.partners-wrapper {
+		padding: 50px;
+	}
+	.partners-text  {
+		height: 350px;
+	}
+	.partners-image {
+		height: 350px;
+	}
+	.partners-text h1 {
+		font-size: 3rem;
+		line-height: 1.5;
+	}
+	.partners-text p {
+		line-height: 1.6;
+	}
+
+	footer {
+		height: 150px;
+		text-align: center
+	}
+	
+	
 }

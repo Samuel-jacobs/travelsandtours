@@ -23,3 +23,26 @@
 	position: relative;
 	left: 50%;
 }
+
+@media screen and (min-width: 768px) {
+	.nav-item a{
+		color: grey;
+	}
+	.nav-item a:hover {
+		color: teal;
+	}
+
+	header .carousel img {
+		height: 60vh;
+		width: 100%;
+	}
+
+	.hotel-main {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.pagination {
+		left: 40%;
+	}
+}

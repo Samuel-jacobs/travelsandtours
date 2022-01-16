@@ -31,3 +31,17 @@
 	border-bottom: 1px solid grey;
 	float: left;
 }
+
+@media screen and (min-width: 768px) {
+	.nav-item a{
+		color: grey;
+	}
+	.nav-item a:hover {
+		color: teal;
+	}
+
+	header .carousel img {
+		height: 60vh;
+		width: 100%;
+	}
+}
