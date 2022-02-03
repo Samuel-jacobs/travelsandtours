@@ -270,19 +270,19 @@ header .carousel-home img {
 	.nav-item {
 		border: none;
 	}
-	 .carousel-home img {
-		height: 100vh;
+	.carousel-item .carousel-img-home {
+		height: 110vh;
 	}
 	.banner-caption-home {
 		left: 50px;
 	}
 	.banner-caption-home h1{
-		font-size: 6.5rem;
+		font-size: 6rem;
 		max-width: 70%;
 	}
 	.banner-caption-home p {
 		max-width: 50%;
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		line-height: 1.8;
 	}
 
@@ -334,7 +334,7 @@ header .carousel-home img {
 		font-size: 5.5rem;
 	}
 	.tour-content .italy {
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 	.partners-intro {
 		text-align: center;
