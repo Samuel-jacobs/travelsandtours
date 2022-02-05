@@ -59,7 +59,13 @@ header .carousel-home img {
 	border-radius: 5px;
 	padding: 10px 20px;
 }
-
+.banner-btn {
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.banner-caption-home a:hover {
+	text-decoration: none;
+}
 .banner-caption {
 	position: absolute;
   top: 50%;
@@ -285,6 +291,7 @@ header .carousel-home img {
 		font-size: 1.1rem;
 		line-height: 1.8;
 	}
+	
 
 	.home-services h1 {
 		font-size: 4.5rem;
