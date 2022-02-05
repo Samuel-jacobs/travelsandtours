@@ -42,6 +42,9 @@
 	padding: 15px 20px;
 	border-radius: 5px;
 }
+.get-in-touch a{
+	color: white;
+}
 
 @media screen and (min-width: 768px) {
 	.nav-item a{
