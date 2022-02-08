@@ -76,8 +76,12 @@
 		line-height: 2;
 		font-size: 1.2rem;
 	}
+	.aboout-mission {
+		padding: 0 100px;
+	}
 	.about-mission-content {
 		padding: 50px;
+		margin: 0 20%;
 	}
 	.about-mission-content h1{
 		font-size: 5.5rem;
