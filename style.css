@@ -57,18 +57,19 @@ header .carousel-home img {
 	color: white;
 }
 .banner-caption-home a {
-	color: #008080;
+	color: white;
 }
 .banner-caption-home a:hover {
 	color: white;
 	text-decoration: none;
 }
 .banner-caption-home h1 {
-	color: #008080;
+	
 	font-size: 3.5rem;
 }
 .banner-caption-home p {
-	color: #008080;
+
+	text-shadow: #212529;
 	font-size: 1.2rem;
 	font-family: 'Abril Fatface', cursive;
 }
@@ -92,10 +93,13 @@ header .carousel-home img {
 	color: white;
 }
 .banner-btn {
-	padding: 5px 15px;
+	padding: 10px 15px;
 	border-radius: 5px;
 	border: 2px solid #008080;
-	color: #008080;
+}
+.banner-btn:hover {
+	background-color: #008080;
+
 }
 .banner-caption-home a:hover {
 	text-decoration: none;
@@ -241,6 +245,10 @@ header .carousel-home img {
 .home-tours h1, h3, .btn {
 	margin-left: 10px;
 }
+.tour-btn {
+	background-color: #008080;
+	color: white;
+}
 .tour-content {
 	padding-top: 50px;
 	height: 100%;
@@ -275,17 +283,7 @@ header .carousel-home img {
 	left: 16px;
 	color: white;
 }
-.traveling-partners {
-	margin-top: 100px;
-	margin-bottom: 50px;
-	padding: 0 20px;
-}
 
-.partners-text {
-	background-color: #f4f4f4;
-	text-align: center;
-	padding: 30px 30px;
-}
 
 .footer {
 	background-image: linear-gradient(to right,rgba(72, 169, 166, 0.83),rgba(72,169,166,0.83));

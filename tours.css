@@ -16,9 +16,9 @@
 .tour-content-main {
 	padding-top: 50px;
 }
-
-.tour-content-main .btn {
-	padding: 10px 30px;
+.tour-content-main a:hover {
+	color: white;
+	text-decoration: none;
 }
 
 .tour-content-main p {
@@ -26,8 +26,11 @@
 }
 
 .tour-content-main button {
-	padding: 10px 40px;
+
 	margin-top: 30px;
+}
+.tour-content-main .tour-btn:hover {
+	opacity: 0.8;
 }
 
 .tour-content-main hr {
@@ -40,6 +43,7 @@
 	padding: 10px 20px;
 	border-radius: 5px;
 }
+
 
 @media screen and (min-width: 768px) {
 	.nav-item a{
