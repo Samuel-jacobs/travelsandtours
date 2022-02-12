@@ -41,24 +41,32 @@
 	color: #008080;
 }
 .socials a:hover {
-	color: white;
+	opacity: 0.6;
 }
 
 
 .socials .fab {
-	font-size: 35px;
-	background-color: #d3d3d3;
-	padding: 20px;
-	border-radius: 50%;
+	font-size: 30px;
 	margin: 0 10px;
 }
-
+.fa-facebook {
+	color: #4267B2;
+}
+.fa-twitter {
+	color: #00acee;
+}
+.fa-instagram {
+	color: #cd486b;
+}
+.fa-google-plus {
+	color: #db4a39;
+}
 @media screen and (min-width: 768px) {
 	.nav-item a{
-		color: grey;
+		color: #008080;
 	}
 	.nav-item a:hover {
-		color: teal;
+		color: white;
 	}
 	header .carousel h1 {
 		font-size: 5.5rem;
