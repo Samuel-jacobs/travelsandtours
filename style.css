@@ -31,6 +31,10 @@ header .carousel-home img {
 	width: 100%;
 	height: 100vh;
 	object-fit: cover;
+	
+}
+.carousel-item img {
+	filter: brightness(50%);
 }
 .nav-item {
 	border-bottom: 1px solid white;
@@ -273,12 +277,13 @@ a .banner-btn {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+	filter: brightness(50%);
 }
 
 .tour-content-text hr {
 	margin-right: 80%;
 	margin-left: 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 3px solid black;
 	
 }
 .tour-content-text {
@@ -297,11 +302,7 @@ a .banner-btn {
 
 
 .footer {
-	background-image: linear-gradient(to right,rgba(72, 169, 166, 0.83),rgba(72,169,166,0.83));
-  background-repeat: repeat-y;
-  background-position: center center;
-  background-size: auto;
-  background-attachment: scroll;
+	background-color: rgba(72,169,166,0.83);
 	padding: 30px 30px 10px 30px;
 	color: white;
 	text-align: center;
@@ -353,7 +354,7 @@ a .banner-btn {
 		color: white;
 	}
 	.nav-item a {
-		color: #008080;
+		color: white;
 	}
 	.nav-item a:hover {
 		color: white;
@@ -379,7 +380,7 @@ a .banner-btn {
 		font-size: 4.5rem;
 	}
 	.home-services h5 {
-		font-size: 2rem;;
+		font-size: 2rem;
 	}
 
 	.service-wrapper {

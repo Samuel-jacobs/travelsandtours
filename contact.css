@@ -65,7 +65,7 @@
 	.nav-item a{
 		color: #008080;
 	}
-	.nav-item a:hover {
+	.nav-item:hover a {
 		color: white;
 	}
 	header .carousel h1 {
