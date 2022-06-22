@@ -1,3 +1,13 @@
+header .carousel img {
+		height: 60vh;
+		width: 100%;
+}
+.carousel-caption {
+	z-index: 0;
+	top: 40%;
+}
+
+
 .tours-main {
 	padding: 50px 20px;
 }
@@ -46,12 +56,14 @@
 
 
 @media screen and (min-width: 768px) {
-	.nav-item a{
+	.nav-links a{
 		color: teal;
 	}
-	.nav-item:hover a {
+	.nav-links a:hover {
+		background-color: teal;
 		color: white;
 	}
+	
 
 	header .carousel h1 {
 		font-size: 5.5rem;

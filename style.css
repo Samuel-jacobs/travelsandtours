@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Bai+Jamjuree');
+
 html, body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	width: 100%;
 	overflow-x: hidden;
-  font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-family: 'Bai Jamjuree', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -24,6 +26,19 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: white;
 	height: 50px;
 	width: 50px;
+}
+.topnav {
+	
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 1;
+}
+.topnav a {
+	font-weight: bolder;
+}
+a.icon {
+	display: none;
 }
 
 
@@ -56,7 +71,7 @@ header .carousel-home img {
 .banner-caption-home {
 	position: absolute;
 	top: 30%;
-  left: 16px;
+	left: 16px;
 	padding-right: 50px;
 	color: white;
 }
@@ -68,11 +83,9 @@ header .carousel-home img {
 	text-decoration: none;
 }
 .banner-caption-home h1 {
-	
 	font-size: 3.5rem;
 }
 .banner-caption-home p {
-
 	text-shadow: #212529;
 	font-size: 1.2rem;
 	font-family: 'Abril Fatface', cursive;
@@ -114,9 +127,9 @@ a .banner-btn {
 /*banner caption for other pages*/
 .banner-caption {
 	position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: white;
 	text-align: center;
 }
@@ -124,47 +137,52 @@ a .banner-btn {
 
 .home-services .service-card1 .image {
 	height: 300px;
-  background-color: red;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
-  background-image: url(img/ticket.jpg);
+	background-color: red;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
+	background-image: url(img/ticket.jpg);
 	background-size: cover;
 	background-position: center center;
-  position: relative;
-  z-index: 1;
-  
+	position: relative;
+	z-index: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .home-services .service-card2 .image {
 	height: 300px;
-  background-color: red;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
-  background-image: url(img/service2.jpg);
+	background-color: red;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
+	background-image: url(img/service2.jpg);
 	background-size: cover;
 	background-position: center center;
-  position: relative;
-  z-index: 1;
+	position: relative;
+	z-index: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
   
 }
 .home-services .service-card3 .image {
 	height: 300px;
-  background-color: red;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
-  background-image: url(img/service3.jpg);
+	background-color: red;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
+	background-image: url(img/service3.jpg);
 	background-size: cover;
 	background-position: center center;
-  position: relative;
-  z-index: 1;
-  
+	position: relative;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .home-services .service-card4 .image {
 	height: 300px;
-  background-color: red;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
-  background-image: url(img/service4.jpg);
+	background-color: red;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 70%);
+	background-image: url(img/service4.jpg);
 	background-size: cover;
 	background-position: center center;
-  position: relative;
-  z-index: 1;
-  
+	position: relative;
+	z-index: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .service-wrapper {
 	margin-top: 50px;
@@ -175,8 +193,10 @@ a .banner-btn {
 	background-color: #f4f4f4;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	border-radius: 10px;
 }
 .service-content .subtitle {
+	clip-path: polygon(0 10%, 0 100%, 100% 100%, 100% 35%);
 	display: inline-block;
   background-color: #008080;
 	padding: 40px 10px 10px 10px;
@@ -185,6 +205,13 @@ a .banner-btn {
   position: absolute;
   top: 210px;
   left: 30px;
+  
+}
+.service-content .subtitle2 {
+	clip-path: polygon(0 10%, 0 100%, 100% 100%, 100% 29%);
+}
+.service-content .subtitle1 {
+	clip-path: polygon(0 10%, 0 100%, 100% 100%, 100% 24%);
 }
 .service-content .title {
 	padding: 20px;
@@ -283,7 +310,7 @@ a .banner-btn {
 .tour-content-text hr {
 	margin-right: 80%;
 	margin-left: 10px;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid white;
 	
 }
 .tour-content-text {
@@ -310,6 +337,7 @@ a .banner-btn {
 .footer a {
 	color: white;
 	padding: 0 10px;
+	font-weight: bolder;
 }
 .socials-home {
 	margin-top: 10px;
@@ -332,6 +360,67 @@ a .banner-btn {
 .built-by {
 	font-size: 0.7rem;
 }
+
+@media screen and (max-width: 768px) {
+	.topnav a{
+		display: block;
+	}
+	
+  .topnav a.icon { 
+    display: block;
+  }
+	.topnav {
+		padding: 10px;
+	}
+
+	.overlay {
+		height: 100vh;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #008080;
+		overflow-x: hidden;
+		text-align: center;
+		transition: 0.5s;
+	}
+	.overlay-top {
+		display: flex;
+		justify-content: space-between;
+		padding: 30px 20px 0 20px;
+	}
+	
+	.nav-links {
+		position: relative;
+		top: 10%;
+		padding-left: 20px;
+		
+		z-index: 1;
+	}
+	.nav-links a {
+		color: white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		
+	}
+	.overlay  a{
+		display: block;
+	}
+	
+	.fa-times {
+		font-size: 25px;
+		color: white;
+	}
+	.fa-bars {
+		font-size: 20px;
+		position: relative;
+		background-color: white;
+		padding: 5px 15px;
+		border-radius: 5px;
+		top: 30%;
+	}
+}
 @media screen and (min-width: 768px) {
 	.navbar-main {
 		background-color: transparent;
@@ -339,12 +428,35 @@ a .banner-btn {
 	.navbar-nav {
 		margin-left: auto;
 	}
-	.nav-item {
+	
+	
+	.topnav {
+		padding: 20px 100px 20px 150px;
+	}
+	.openBtn {
+		display: none;
+	}
+	.closeBtn {
+		display: none;
+	}
+	.overlay .nav-logo {
+		display: none;
+	}
+	.overlay {
+		width: 100%;
+	}
+	.nav-links {
+		float: right;
+		position: relative;
+		top: 30%;
+	}
+	.nav-links a {
+		display: inline-block;
 		border: 2px solid #008080;
 		border-radius: 5px;
-		padding-top: 0;
-		padding-bottom: 0;
-		margin: 10px;
+		color: white;
+		padding: 5px 20px;
+		margin-left: 10px;
 	}
 	.nav-item:hover {
 		background-color: #008080;
@@ -360,7 +472,7 @@ a .banner-btn {
 		color: white;
 	}
 	.carousel-item .carousel-img-home {
-		height: 110vh;
+		height: 100vh;
 	}
 	.banner-caption-home {
 		left: 50px;
@@ -388,6 +500,18 @@ a .banner-btn {
 		padding-right: 50px;
 		
 	}
+	.service-content .subtitle {
+		clip-path: polygon(0 10%, 0 100%, 100% 100%, 100% 40%);
+	}
+	.service-content .subtitle1 {
+		clip-path: polygon(0 10%, 0 100%, 100% 100%, 100% 35%);
+	}
+	.service-content .subtitle3 {
+		clip-path: polygon(0 10%, 0 100%, 100% 100%, 100% 50%);
+	}
+	
+	
+	
 	.hotels {
 		padding-left: 30%;
 		padding-right: 30%;

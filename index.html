@@ -36,8 +36,8 @@
 	<!--End of Tawk.to Script-->
 	<body>
 		<header>
-			<nav id="navbar" class="navbar bg-transparent  navbar-expand-md fixed-top">
-				<a href="index.html" class="navbar-brand"><img src="img/pocha-logo.png" alt="logo image" height="100px" width="100px"></a>
+			<!--<nav id="navbar" class="navbar navbar-expand-md fixed-top">
+				<a href="index.html" class="navbar-brand"><img src="img/pocha-logo.png" alt="logo image" height="80px" width="80px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span ><i class="fas fa-bars"></i></span>
 				</button>
@@ -45,7 +45,7 @@
 				<div class="collapse navbar-collapse navbar-main" id="collapsibleNavbar">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">Home</a>
+							<a href="javascript:void(0)" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item">
 							<a href="tours.html" class="nav-link">Tours</a>
@@ -59,7 +59,30 @@
 						
 					</ul>
 				</div>
-			</nav>
+			</nav>-->
+			<div class="topnav fixed-top shadow-sm" id="myTopnav">
+				<div class="nav-logo">
+				  <a href="index.html"><img src="img/pocha-logo.png" alt="logo image" height="80px" width="80px"></a>
+				</div>
+				<div class="overlay" id="myNav">
+				  <div class="overlay-top">
+					<div class="nav-logo">
+					  <img src="img/pocha-logo.png" alt="logo image" height="80px" width="80px">
+					</div>
+					<a href="javascript:void(0)" class="closeBtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+				  </div>
+				  
+				  <div class="nav-links">
+					<a class="nav-link" href="index.html">Home</a>
+					<a class="nav-link" href="tours.html">Tours</a>
+					<a class="nav-link" href="about.html">About Us</a>
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				  </div>
+				</div>
+				<span onclick="openNav()" class="openBtn"><i class="fas fa-bars"></i></span>
+			   
+			 </div>
+    
 			<div class="background-overlay"></div>
 			<div id="carousel" class="carousel" data-ride="carousel">
 				<div class="carousel-inner carousel-home">
@@ -99,12 +122,12 @@
 			<section class="home-services">	
 				<h1 class="text-center">What We Do</h1>
 				<div class="row service-wrapper">
-					<div class="col-md-3">
-						<div class="service-content">
+					<div class="col-sm-6 col-lg-3">
+						<div class="service-content shadow">
 							<div class="service-card3">
 								<div class="image"></div>
 								<div class="content">
-									<div class="subtitle">Visa</div>
+									<div class="subtitle subtitle1">Visa</div>
 									<div class="title">
 										<p>Visa Assistance</p>
 									</div>
@@ -112,12 +135,12 @@
 							</div>	<!--end of service card div-->
 						</div> <!--end of service content-->
 					</div>
-					<div class="col-md-3">
-						<div class="service-content">
+					<div class="col-sm-6 col-lg-3">
+						<div class="service-content shadow">
 							<div class="service-card1">
 								<div class="image"></div>
 								<div class="content">
-									<div class="subtitle">Ticket</div>
+									<div class="subtitle subtitle2">Ticket</div>
 									<div class="title">
 										<p>Ticket Booking</p>
 									</div>
@@ -127,12 +150,12 @@
 					</div>
 
 					
-					<div class="col-md-3">
-						<div class="service-content">
+					<div class="col-sm-6 col-lg-3">
+						<div class="service-content shadow">
 							<div class="service-card2">
 								<div class="image"></div>
 								<div class="content">
-									<div class="subtitle">Cruise</div>
+									<div class="subtitle subtitle2">Cruise</div>
 									<div class="title">
 										<p>Travel & Tour</p>
 									</div>
@@ -141,12 +164,12 @@
 						</div> <!--end of service content-->
 					</div>
 
-					<div class="col-md-3">
-						<div class="service-content">
+					<div class="col-sm-6 col-lg-3">
+						<div class="service-content shadow">
 							<div class="service-card4">
 								<div class="image"></div>
 								<div class="content">
-									<div class="subtitle">Transport</div>
+									<div class="subtitle subtitle3">Transport</div>
 									<div class="title">
 										<p>Car Rentals</p>
 									</div>
@@ -192,13 +215,13 @@
 			</section>
 
 			<section class="home-tours row">
-				<div class="tours-intro col-md-5">
+				<div class="tours-intro col-xl-5">
 					<h5 class="pl-2">our most </h5>
 					<h1>Popular Tours</h1>
 					<a href="tours.html" type="button" class="btn tour-btn">View All Tours</a>
 				</div>
 			
-				<div class="tour-content col-md-7">
+				<div class="tour-content col-xl-7">
 					<div class="row no-gutters">
 						<div class="tour-content-img col-md-4">
 							<img src="img/england.jpg" alt="">
@@ -233,9 +256,6 @@
 		</main>
 
 		<footer class="footer">
-			
-			
-
 			<div class="footer-links">
 				<a href="index.html">Home</a>
 				<a href="tours.html">Tours</a>
